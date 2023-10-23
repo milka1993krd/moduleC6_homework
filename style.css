@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px; 
+  background-color: #dbefff;
+  
+}
+
+.chat {
+    position: relative;
+    max-width: 100%;
+    min-width: 300px;
+    width: 90%;
+}
+
+.input_blok {
+    width: 100%;
+    height: 35px;
+    display: flex;
+}
+
+.message {
+  width: 660px;
+  height: 30px;
+  padding-left: 10px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 3px solid #47a3ff;
+}
+
+
+.btn {
+ cursor: pointer;
+ width: 250px;
+ height: 37px;
+ font-size: 18px;
+ background: #67fb01;
+ color: #47a3ff;
+ border: 0.2rem solid;
+ padding-left: 20px;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ border-radius: 3px;
+ position: relative;
+}
+
+.msg {
+    max-width: 200px;
+    margin: 5px 20px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 100
+}
+
+.client {
+    display: flex;
+    justify-content: end;
+/*     text-align: end; */
+}
+
+.server {
+    display: flex;
+    justify-content: start;
+}
+
+.connect {
+    color: #0000CD;
+    margin-top:5px;
+    margin-left:5px;
+}
+.closeconnect {
+    color: red;
+    margin-top:5px;
+    margin-left:5px;
+}
